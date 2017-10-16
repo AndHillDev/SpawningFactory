@@ -1,0 +1,8 @@
+{
+    "parent": "block/stairs",
+    "textures": {
+        "bottom": "spawningfactory:blocks/limestonebricks",
+        "top": "spawningfactory:blocks/limestonebricks",
+        "side": "spawningfactory:blocks/limestonebricks"
+    }
+}

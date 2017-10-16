@@ -1,0 +1,251 @@
+package de.andhilldev.spawningfactory.init;
+
+import de.andhilldev.spawningfactory.items.ItemDrop;
+import de.andhilldev.spawningfactory.items.ItemEgg;
+import de.andhilldev.spawningfactory.items.ItemLimeStoneBrick;
+import de.andhilldev.spawningfactory.items.ItemLimeStoneDust;
+import de.andhilldev.spawningfactory.misc.References;
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.resources.model.ModelResourceLocation;
+import net.minecraft.item.Item;
+import net.minecraftforge.fml.common.registry.GameRegistry;
+
+public class ModItems {
+	
+	public static Item itemLimeStoneDust;
+	public static Item itemLimeStoneBrick;
+	public static Item itemBlankEgg;
+	public static Item itemBatDrop;
+	public static Item itemBlazeDrop;
+	public static Item itemCaveSpiderDrop;
+	public static Item itemChickenDrop;
+	public static Item itemCowDrop;
+	public static Item itemCreeperDrop;
+	public static Item itemEnderManDrop;
+	public static Item itemEnderMiteDrop;
+	public static Item itemGuardianDrop;
+	public static Item itemHorseDrop;
+	public static Item itemMagmaCubeDrop;
+	public static Item itemOcelotDrop;
+	public static Item itemPigDrop;
+	public static Item itemSheepDrop;
+	public static Item itemSilverFishDrop;
+	public static Item itemSkeletonDrop;
+	public static Item itemSlimeDrop;
+	public static Item itemSpiderDrop;
+	public static Item itemSquidDrop;
+	public static Item itemVillagerDrop;
+	public static Item itemWitchDrop;
+	public static Item itemWolfDrop;
+	public static Item itemZombieDrop;
+	public static Item itemRabbitDrop;
+	public static Item itemBatEgg;
+	public static Item itemBlazeEgg;
+	public static Item itemCaveSpiderEgg;
+	public static Item itemChickenEgg;
+	public static Item itemCowEgg;
+	public static Item itemCreeperEgg;
+	public static Item itemEnderManEgg;
+	public static Item itemEnderMiteEgg;
+	public static Item itemGhastEgg;
+	public static Item itemGuardianEgg;
+	public static Item itemHorseEgg;
+	public static Item itemMagmaCubeEgg;
+	public static Item itemMooshRoomCowEgg;
+	public static Item itemOcelotEgg;
+	public static Item itemPigEgg;
+	public static Item itemRabbitEgg;
+	public static Item itemSheepEgg;
+	public static Item itemSilverFishEgg;
+	public static Item itemSkeletonEgg;
+	public static Item itemSlimeEgg;
+	public static Item itemSpiderEgg;
+	public static Item itemSquidEgg;
+	public static Item itemVillagerEgg;
+	public static Item itemWitchEgg;
+	public static Item itemWolfEgg;
+	public static Item itemZombieEgg;
+	public static Item itemZombiePigManEgg;
+	
+	public static void init () {
+		itemLimeStoneDust = new ItemLimeStoneDust();
+		itemLimeStoneBrick = new ItemLimeStoneBrick();
+		itemBlankEgg = new ItemEgg(References.SpawningFactoryItems.BLANKEGG.getUnlocalizedName(), References.SpawningFactoryItems.BLANKEGG.getRegistryName());
+		itemBatDrop = new ItemDrop(References.SpawningFactoryItems.BATDROP.getUnlocalizedName(), References.SpawningFactoryItems.BATDROP.getRegistryName());
+		itemBlazeDrop = new ItemDrop(References.SpawningFactoryItems.BLAZEDROP.getUnlocalizedName(), References.SpawningFactoryItems.BLAZEDROP.getRegistryName());
+		itemCaveSpiderDrop = new ItemDrop(References.SpawningFactoryItems.CAVESPIDERDROP.getUnlocalizedName(), References.SpawningFactoryItems.CAVESPIDERDROP.getRegistryName());
+		itemChickenDrop = new ItemDrop(References.SpawningFactoryItems.CHICKENDROP.getUnlocalizedName(), References.SpawningFactoryItems.CHICKENDROP.getRegistryName());
+		itemCowDrop = new ItemDrop(References.SpawningFactoryItems.COWDROP.getUnlocalizedName(), References.SpawningFactoryItems.COWDROP.getRegistryName());
+		itemCreeperDrop = new ItemDrop(References.SpawningFactoryItems.CREEPERDROP.getUnlocalizedName(), References.SpawningFactoryItems.CREEPERDROP.getRegistryName());
+		itemEnderManDrop = new ItemDrop(References.SpawningFactoryItems.ENDERMANDROP.getUnlocalizedName(), References.SpawningFactoryItems.ENDERMANDROP.getRegistryName());
+		itemEnderMiteDrop = new ItemDrop(References.SpawningFactoryItems.ENDERMITEDROP.getUnlocalizedName(), References.SpawningFactoryItems.ENDERMITEDROP.getRegistryName());
+		itemGuardianDrop = new ItemDrop(References.SpawningFactoryItems.GUARDIANDROP.getUnlocalizedName(), References.SpawningFactoryItems.GUARDIANDROP.getRegistryName());
+		itemHorseDrop = new ItemDrop(References.SpawningFactoryItems.HORSEDROP.getUnlocalizedName(), References.SpawningFactoryItems.HORSEDROP.getRegistryName());
+		itemMagmaCubeDrop = new ItemDrop(References.SpawningFactoryItems.MAGMACUBEDROP.getUnlocalizedName(), References.SpawningFactoryItems.MAGMACUBEDROP.getRegistryName());
+		itemOcelotDrop = new ItemDrop(References.SpawningFactoryItems.OCELOTDROP.getUnlocalizedName(), References.SpawningFactoryItems.OCELOTDROP.getRegistryName());
+		itemPigDrop = new ItemDrop(References.SpawningFactoryItems.PIGDROP.getUnlocalizedName(), References.SpawningFactoryItems.PIGDROP.getRegistryName());
+		itemSheepDrop = new ItemDrop(References.SpawningFactoryItems.SHEEPDROP.getUnlocalizedName(), References.SpawningFactoryItems.SHEEPDROP.getRegistryName());
+		itemSilverFishDrop = new ItemDrop(References.SpawningFactoryItems.SILVERFISHDROP.getUnlocalizedName(), References.SpawningFactoryItems.SILVERFISHDROP.getRegistryName());
+		itemSkeletonDrop = new ItemDrop(References.SpawningFactoryItems.SKELETONDROP.getUnlocalizedName(), References.SpawningFactoryItems.SKELETONDROP.getRegistryName());
+		itemSlimeDrop = new ItemDrop(References.SpawningFactoryItems.SLIMEDROP.getUnlocalizedName(), References.SpawningFactoryItems.SLIMEDROP.getRegistryName());
+		itemSpiderDrop = new ItemDrop(References.SpawningFactoryItems.SPIDERDROP.getUnlocalizedName(), References.SpawningFactoryItems.SPIDERDROP.getRegistryName());
+		itemSquidDrop = new ItemDrop(References.SpawningFactoryItems.SQUIDDROP.getUnlocalizedName(), References.SpawningFactoryItems.SQUIDDROP.getRegistryName());
+		itemVillagerDrop = new ItemDrop(References.SpawningFactoryItems.VILLAGERDROP.getUnlocalizedName(), References.SpawningFactoryItems.VILLAGERDROP.getRegistryName());
+		itemWitchDrop = new ItemDrop(References.SpawningFactoryItems.WITCHDROP.getUnlocalizedName(), References.SpawningFactoryItems.WITCHDROP.getRegistryName());
+		itemWolfDrop = new ItemDrop(References.SpawningFactoryItems.WOLFDROP.getUnlocalizedName(), References.SpawningFactoryItems.WOLFDROP.getRegistryName());
+		itemZombieDrop = new ItemDrop(References.SpawningFactoryItems.ZOMBIEDROP.getUnlocalizedName(), References.SpawningFactoryItems.ZOMBIEDROP.getRegistryName());
+		itemRabbitDrop = new ItemDrop(References.SpawningFactoryItems.RABBITDROP.getUnlocalizedName(), References.SpawningFactoryItems.RABBITDROP.getRegistryName());
+		
+		itemBatEgg = new ItemEgg(References.SpawningFactoryItems.BATEGG.getUnlocalizedName(), References.SpawningFactoryItems.BATEGG.getRegistryName());
+		itemBlazeEgg = new ItemEgg(References.SpawningFactoryItems.BLAZEEGG.getUnlocalizedName(), References.SpawningFactoryItems.BLAZEEGG.getRegistryName());
+		itemCaveSpiderEgg = new ItemEgg(References.SpawningFactoryItems.CAVESPIDEREGG.getUnlocalizedName(), References.SpawningFactoryItems.CAVESPIDEREGG.getRegistryName());
+		itemChickenEgg = new ItemEgg(References.SpawningFactoryItems.CHICKENEGG.getUnlocalizedName(), References.SpawningFactoryItems.CHICKENEGG.getRegistryName());
+		itemCowEgg = new ItemEgg(References.SpawningFactoryItems.COWEGG.getUnlocalizedName(), References.SpawningFactoryItems.COWEGG.getRegistryName());
+		itemCreeperEgg = new ItemEgg(References.SpawningFactoryItems.CREEPEREGG.getUnlocalizedName(), References.SpawningFactoryItems.CREEPEREGG.getRegistryName());
+		itemEnderManEgg = new ItemEgg(References.SpawningFactoryItems.ENDERMANEGG.getUnlocalizedName(), References.SpawningFactoryItems.ENDERMANEGG.getRegistryName());
+		itemEnderMiteEgg = new ItemEgg(References.SpawningFactoryItems.ENDERMITEEGG.getUnlocalizedName(), References.SpawningFactoryItems.ENDERMITEEGG.getRegistryName());
+		itemGhastEgg = new ItemEgg(References.SpawningFactoryItems.GHASTEGG.getUnlocalizedName(), References.SpawningFactoryItems.GHASTEGG.getRegistryName());
+		itemGuardianEgg = new ItemEgg(References.SpawningFactoryItems.GUARDIANEGG.getUnlocalizedName(), References.SpawningFactoryItems.GUARDIANEGG.getRegistryName());
+		itemHorseEgg = new ItemEgg(References.SpawningFactoryItems.HORSEEGG.getUnlocalizedName(), References.SpawningFactoryItems.HORSEEGG.getRegistryName());
+		itemMagmaCubeEgg = new ItemEgg(References.SpawningFactoryItems.MAGMACUBEEGG.getUnlocalizedName(), References.SpawningFactoryItems.MAGMACUBEEGG.getRegistryName());
+		itemMooshRoomCowEgg = new ItemEgg(References.SpawningFactoryItems.MOOSHROOMEGG.getUnlocalizedName(), References.SpawningFactoryItems.MOOSHROOMEGG.getRegistryName());
+		itemOcelotEgg = new ItemEgg(References.SpawningFactoryItems.OCELOTEGG.getUnlocalizedName(), References.SpawningFactoryItems.OCELOTEGG.getRegistryName());
+		itemPigEgg = new ItemEgg(References.SpawningFactoryItems.PIGEGG.getUnlocalizedName(), References.SpawningFactoryItems.PIGEGG.getRegistryName());
+		itemRabbitEgg = new ItemEgg(References.SpawningFactoryItems.RABBITEGG.getUnlocalizedName(), References.SpawningFactoryItems.RABBITEGG.getRegistryName());
+		itemSheepEgg = new ItemEgg(References.SpawningFactoryItems.SHEEPEGG.getUnlocalizedName(), References.SpawningFactoryItems.SHEEPEGG.getRegistryName());
+		itemSilverFishEgg = new ItemEgg(References.SpawningFactoryItems.SILVERFISHEGG.getUnlocalizedName(), References.SpawningFactoryItems.SILVERFISHEGG.getRegistryName());
+		itemSkeletonEgg = new ItemEgg(References.SpawningFactoryItems.SKELETONEGG.getUnlocalizedName(), References.SpawningFactoryItems.SKELETONEGG.getRegistryName());
+		itemSlimeEgg = new ItemEgg(References.SpawningFactoryItems.SLIMEEGG.getUnlocalizedName(), References.SpawningFactoryItems.SLIMEEGG.getRegistryName());
+		itemSpiderEgg = new ItemEgg(References.SpawningFactoryItems.SPIDEREGG.getUnlocalizedName(), References.SpawningFactoryItems.SPIDEREGG.getRegistryName());
+		itemSquidEgg = new ItemEgg(References.SpawningFactoryItems.SQUIDEGG.getUnlocalizedName(), References.SpawningFactoryItems.SQUIDEGG.getRegistryName());
+		itemVillagerEgg = new ItemEgg(References.SpawningFactoryItems.VILLAGEREGG.getUnlocalizedName(), References.SpawningFactoryItems.VILLAGEREGG.getRegistryName());
+		itemWitchEgg = new ItemEgg(References.SpawningFactoryItems.WITCHEGG.getUnlocalizedName(), References.SpawningFactoryItems.WITCHEGG.getRegistryName());
+		itemWolfEgg = new ItemEgg(References.SpawningFactoryItems.WOLFEGG.getUnlocalizedName(), References.SpawningFactoryItems.WOLFEGG.getRegistryName());
+		itemZombieEgg = new ItemEgg(References.SpawningFactoryItems.ZOMBIEEGG.getUnlocalizedName(), References.SpawningFactoryItems.ZOMBIEEGG.getRegistryName());
+		itemZombiePigManEgg = new ItemEgg(References.SpawningFactoryItems.ZOMBIEPIGMANEGG.getUnlocalizedName(), References.SpawningFactoryItems.ZOMBIEPIGMANEGG.getRegistryName());;
+	}
+	
+	public static void register() {
+		GameRegistry.registerItem(itemLimeStoneDust);
+		GameRegistry.registerItem(itemLimeStoneBrick);
+		GameRegistry.registerItem(itemBlankEgg);
+		GameRegistry.registerItem(itemBatDrop);
+		GameRegistry.registerItem(itemBlazeDrop);
+		GameRegistry.registerItem(itemCaveSpiderDrop);
+		GameRegistry.registerItem(itemChickenDrop);
+		GameRegistry.registerItem(itemCowDrop);
+		GameRegistry.registerItem(itemCreeperDrop);
+		GameRegistry.registerItem(itemEnderManDrop);
+		GameRegistry.registerItem(itemEnderMiteDrop);
+		GameRegistry.registerItem(itemGuardianDrop);
+		GameRegistry.registerItem(itemHorseDrop);
+		GameRegistry.registerItem(itemMagmaCubeDrop);
+		GameRegistry.registerItem(itemOcelotDrop);
+		GameRegistry.registerItem(itemPigDrop);
+		GameRegistry.registerItem(itemSheepDrop);
+		GameRegistry.registerItem(itemSilverFishDrop);
+		GameRegistry.registerItem(itemSkeletonDrop);
+		GameRegistry.registerItem(itemSlimeDrop);
+		GameRegistry.registerItem(itemSpiderDrop);
+		GameRegistry.registerItem(itemSquidDrop);
+		GameRegistry.registerItem(itemVillagerDrop);
+		GameRegistry.registerItem(itemWitchDrop);
+		GameRegistry.registerItem(itemWolfDrop);
+		GameRegistry.registerItem(itemZombieDrop);
+		GameRegistry.registerItem(itemRabbitDrop);
+		GameRegistry.registerItem(itemBatEgg);
+		GameRegistry.registerItem(itemBlazeEgg);
+		GameRegistry.registerItem(itemCaveSpiderEgg);
+		GameRegistry.registerItem(itemChickenEgg);
+		GameRegistry.registerItem(itemCowEgg);
+		GameRegistry.registerItem(itemCreeperEgg);
+		GameRegistry.registerItem(itemEnderManEgg);
+		GameRegistry.registerItem(itemEnderMiteEgg);
+		GameRegistry.registerItem(itemGhastEgg);
+		GameRegistry.registerItem(itemGuardianEgg);
+		GameRegistry.registerItem(itemHorseEgg);
+		GameRegistry.registerItem(itemMagmaCubeEgg);
+		GameRegistry.registerItem(itemMooshRoomCowEgg);
+		GameRegistry.registerItem(itemOcelotEgg);
+		GameRegistry.registerItem(itemPigEgg);
+		GameRegistry.registerItem(itemRabbitEgg);
+		GameRegistry.registerItem(itemSheepEgg);
+		GameRegistry.registerItem(itemSilverFishEgg);
+		GameRegistry.registerItem(itemSkeletonEgg);
+		GameRegistry.registerItem(itemSlimeEgg);
+		GameRegistry.registerItem(itemSpiderEgg);
+		GameRegistry.registerItem(itemSquidEgg);
+		GameRegistry.registerItem(itemVillagerEgg);
+		GameRegistry.registerItem(itemWitchEgg);
+		GameRegistry.registerItem(itemWolfEgg);
+		GameRegistry.registerItem(itemZombieEgg);
+		GameRegistry.registerItem(itemZombiePigManEgg);
+	}
+	
+	public static void registerRenders() {
+		registerRender(itemLimeStoneDust);
+		registerRender(itemLimeStoneBrick);
+		registerRender(itemBlankEgg);
+		registerRender(itemBatDrop);
+		registerRender(itemBlazeDrop);
+		registerRender(itemCaveSpiderDrop);
+		registerRender(itemChickenDrop);
+		registerRender(itemCowDrop);
+		registerRender(itemCreeperDrop);
+		registerRender(itemEnderManDrop);
+		registerRender(itemEnderMiteDrop);
+		registerRender(itemGuardianDrop);
+		registerRender(itemHorseDrop);
+		registerRender(itemMagmaCubeDrop);
+		registerRender(itemOcelotDrop);
+		registerRender(itemPigDrop);
+		registerRender(itemSheepDrop);
+		registerRender(itemSilverFishDrop);
+		registerRender(itemSkeletonDrop);
+		registerRender(itemSlimeDrop);
+		registerRender(itemSpiderDrop);
+		registerRender(itemSquidDrop);
+		registerRender(itemVillagerDrop);
+		registerRender(itemWitchDrop);
+		registerRender(itemWolfDrop);
+		registerRender(itemZombieDrop);
+		registerRender(itemRabbitDrop);
+		registerRender(itemBatEgg);
+		registerRender(itemBlazeEgg);
+		registerRender(itemCaveSpiderEgg);
+		registerRender(itemChickenEgg);
+		registerRender(itemCowEgg);
+		registerRender(itemCreeperEgg);
+		registerRender(itemEnderManEgg);
+		registerRender(itemEnderMiteEgg);
+		registerRender(itemGhastEgg);
+		registerRender(itemGuardianEgg);
+		registerRender(itemHorseEgg);
+		registerRender(itemMagmaCubeEgg);
+		registerRender(itemMooshRoomCowEgg);
+		registerRender(itemOcelotEgg);
+		registerRender(itemPigEgg);
+		registerRender(itemRabbitEgg);
+		registerRender(itemSheepEgg);
+		registerRender(itemSilverFishEgg);
+		registerRender(itemSkeletonEgg);
+		registerRender(itemSlimeEgg);
+		registerRender(itemSpiderEgg);
+		registerRender(itemSquidEgg);
+		registerRender(itemVillagerEgg);
+		registerRender(itemWitchEgg);
+		registerRender(itemWolfEgg);
+		registerRender(itemZombieEgg);
+		registerRender(itemZombiePigManEgg);
+		
+	}
+	
+	public static void registerItemOres() {
+		
+	}
+	
+	private static void registerRender(Item item) {
+		Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(item, 0, new ModelResourceLocation(References.MODID+':'+item.getUnlocalizedName().substring(5), "inventory"));
+	}
+	
+}

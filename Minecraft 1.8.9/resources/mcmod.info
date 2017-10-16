@@ -1,0 +1,16 @@
+[
+{
+  "modid": "spawningfactory",
+  "name": "Spawning Factory",
+  "description": "A mod that allows you to create spawn eggs to spawn any mob on your world directly in survival mode.",
+  "version": "1.0.5",
+  "mcversion": "1.8.9",
+  "url": "https://minecraft.curseforge.com/projects/spawningfactory-mod",
+  "updateUrl": "",
+  "authorList": ["AndHill Development"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
