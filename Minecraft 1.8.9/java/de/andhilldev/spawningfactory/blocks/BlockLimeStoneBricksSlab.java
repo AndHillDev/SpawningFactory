@@ -1,6 +1,9 @@
 package de.andhilldev.spawningfactory.blocks;
 
+import java.util.Random;
+
 import de.andhilldev.spawningfactory.SpawningFactory;
+import de.andhilldev.spawningfactory.init.ModBlocks;
 import de.andhilldev.spawningfactory.misc.References;
 import net.minecraft.block.BlockSlab;
 import net.minecraft.block.material.Material;
@@ -8,6 +11,7 @@ import net.minecraft.block.properties.IProperty;
 import net.minecraft.block.properties.PropertyBool;
 import net.minecraft.block.state.BlockState;
 import net.minecraft.block.state.IBlockState;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 
 public abstract class BlockLimeStoneBricksSlab extends BlockSlab {
@@ -16,7 +20,6 @@ public abstract class BlockLimeStoneBricksSlab extends BlockSlab {
 
 	public BlockLimeStoneBricksSlab(String unlocalizedName) {
 		super(Material.rock);
-		this.setCreativeTab(SpawningFactory.tabSpawningFactory);
 		this.setUnlocalizedName(unlocalizedName);
 		this.setHardness(3.0F);
 		this.setResistance(5.0F);
@@ -27,6 +30,7 @@ public abstract class BlockLimeStoneBricksSlab extends BlockSlab {
 		state.withProperty(VARIANT, false);
 		if(!this.isDouble()) {
 			state.withProperty(HALF, EnumBlockHalf.BOTTOM);
+			this.setCreativeTab(SpawningFactory.tabSpawningFactory);
 		}
 		setDefaultState(state);
 	}
@@ -90,5 +94,10 @@ public abstract class BlockLimeStoneBricksSlab extends BlockSlab {
 	public int damageDropped(IBlockState state) {
 		return 0;
 	}
+	
+	public Item getItemDropped(IBlockState state, Random rand, int fortune)
+    {
+        return Item.getItemFromBlock(ModBlocks.blockLimeStoneBricksHalfSlab);
+    }
 
 }

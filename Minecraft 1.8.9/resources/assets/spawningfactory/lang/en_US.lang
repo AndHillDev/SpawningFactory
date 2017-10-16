@@ -3,6 +3,7 @@ itemGroup.TabSpawningFactory=Spawning Factory
 tile.blockLimeStone.name=Limestone
 tile.blockLimeStoneBricks.name=Limestone Bricks
 tile.blockLimeStoneBricksStairs.name=Limestone Bricks Stairs
+tile.blockLimeStoneBricksHalfSlab.name=Limestone Bricks Slab
 
 item.itemLimeStoneDust.name=Limestone Dust
 item.itemLimeStoneBrick.name=Limestone Brick

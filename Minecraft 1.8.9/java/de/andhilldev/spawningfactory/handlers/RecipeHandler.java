@@ -16,7 +16,10 @@ public class RecipeHandler {
 	private static void shapedRecipes() {
 		GameRegistry.addRecipe(new ItemStack(ModBlocks.blockLimeStoneBricks, 1), new Object[]{"XX", "XX", 'X', ModItems.itemLimeStoneBrick});
 		GameRegistry.addRecipe(new ItemStack(ModItems.itemBlankEgg, 1), new Object[]{"XXX", "XYX", "XXX", 'X', ModItems.itemLimeStoneDust, 'Y', Items.egg});
-	
+		GameRegistry.addRecipe(new ItemStack(ModBlocks.blockLimeStoneBricksStairs, 4), new Object[] {"X  ","XX ","XXX", 'X',ModBlocks.blockLimeStoneBricks});
+		GameRegistry.addRecipe(new ItemStack(ModBlocks.blockLimeStoneBricksHalfSlab, 6), new Object[] {"XXX", 'X', ModBlocks.blockLimeStoneBricks});
+		
+		
 		GameRegistry.addShapedRecipe(new ItemStack(ModItems.itemPigEgg, 1), new Object[] {"X#",'#',ModItems.itemPigDrop,'X',ModItems.itemBlankEgg});
 		GameRegistry.addShapedRecipe(new ItemStack(ModItems.itemCowEgg, 1), new Object[] {"X#",'#',ModItems.itemCowDrop,'X',ModItems.itemBlankEgg});
 		GameRegistry.addShapedRecipe(new ItemStack(ModItems.itemHorseEgg, 1), new Object[] {"X#",'#',ModItems.itemHorseDrop,'X',ModItems.itemBlankEgg});

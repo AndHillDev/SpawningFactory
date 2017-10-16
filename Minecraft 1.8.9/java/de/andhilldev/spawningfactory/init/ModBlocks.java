@@ -35,8 +35,8 @@ public class ModBlocks {
 		GameRegistry.registerBlock(blockLimeStone);
 		GameRegistry.registerBlock(blockLimeStoneBricks);
 		GameRegistry.registerBlock(blockLimeStoneBricksStairs);
-		GameRegistry.registerBlock(blockLimeStoneBricksHalfSlab, ItemBlockLimeStoneBricksSlab.class, References.SpawningFactoryblocks.LIMESTONEBRICKSHALFSLAB.getUnlocalizedName(), blockLimeStoneBricksHalfSlab, blockLimeStoneBricksDoubleSlab, false);
-		GameRegistry.registerBlock(blockLimeStoneBricksDoubleSlab, ItemBlockLimeStoneBricksSlab.class, References.SpawningFactoryblocks.LIMESTONEBRICKSDOUBLESLAB.getUnlocalizedName(), blockLimeStoneBricksHalfSlab, blockLimeStoneBricksDoubleSlab, true);
+		GameRegistry.registerBlock(blockLimeStoneBricksHalfSlab, ItemBlockLimeStoneBricksSlab.class, "blockLimeStoneBricksHalfSlab", blockLimeStoneBricksHalfSlab, blockLimeStoneBricksDoubleSlab);
+		GameRegistry.registerBlock(blockLimeStoneBricksDoubleSlab, ItemBlockLimeStoneBricksSlab.class, "blockLimeStoneBricksDoubleSlab", blockLimeStoneBricksHalfSlab, blockLimeStoneBricksDoubleSlab);
 	}
 	
 	public static void registerRenders() {

@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "variant=false": { "model": "spawningfactory:blockLimeStoneBricks" },
+        "variant=true":    { "model": "spawningfactory:blockLimeStoneBricks" }
+    }
+}

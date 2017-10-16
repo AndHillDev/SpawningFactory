@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "half=bottom,variant=false": { "model": "spawningfactory:blockLimeStoneBricksHalfSlab" },
+        "half=top,variant=false": { "model": "spawningfactory:blockLimeStoneBricksHalfSlab_upper" }
+    }
+}
